@@ -22,3 +22,7 @@ Example:
 admin_gui_api_url=https://this-app/api
 admin_gui_url=https://this-app
 ```
+## Future Improvements
+
+ - [ ] Able to filter out features, restrict based on activity (eg: GET, POST, PATCH)
+ - [ ] Extend the Kong/kong-manager to have seperate function OR create independent UI Manager based on Admin API
