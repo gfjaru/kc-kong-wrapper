@@ -12,3 +12,13 @@ Then run the service:
 npm i
 npm run start
 ```
+
+## Kong Configuration
+
+Need some changes to `kong.conf`, adjust `admin_gui_api_url` and adjust `admin_gui_url` to this service.
+
+Example:
+```
+admin_gui_api_url=https://this-app/api
+admin_gui_url=https://this-app
+```
